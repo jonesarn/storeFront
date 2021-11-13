@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(63, 5, 5);
+    color:aliceblue;
+  }
+  
+  .nav-bar {
+    overflow: hidden;
+    background-image: url('https://th.bing.com/th/id/R.f44bfcda524999e55af90888a20a2e57?rik=DPbQzMj46lpLmg&riu=http%3a%2f%2fwallpapercave.com%2fwp%2f0DNer7E.jpg&ehk=NH8eCGUTkrQDy70MjI%2fTbDLQXSlbNvy8xGmue5wr8Yg%3d&risl=&pid=ImgRaw&r=0');
+    padding: 5px 5px;
+  }
+  .nav-bar h1{
+    float: left;
+    display: block;
+    color: #747d90;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    
+  }
+  .nav-bar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .card {
+    background-color: #c2c5ca;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .merch{
+    border: black;
+    background-color: whitesmoke;
+    display:grid;
+    padding: 10px 10px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1px;
+
+  }
+  .yt-videos{
+    border: black;
+    background-color: whitesmoke;
+    display:grid;
+    padding: 10px 10px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1px;
+
+  }
+  
+  
